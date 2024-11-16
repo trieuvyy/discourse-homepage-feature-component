@@ -39,7 +39,7 @@ html.homepage-featured-topics {
       max-width: 500px;
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       background-color: var(--surface-low-contrast);
       border-radius: 28px;
@@ -106,7 +106,7 @@ html.homepage-featured-topics {
         text-align: start;
         
         a {
-          color: #1d1d1f;
+          color: var(--fg-high-contrast);
         }
       }
       .featured-topic-image {
