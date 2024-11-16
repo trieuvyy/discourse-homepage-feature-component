@@ -31,15 +31,20 @@ html.homepage-featured-topics {
   .featured-topics {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
 
 
     .featured-topic {
       flex: 1 1 30%;
       max-width: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
       background-color: var(--surface-low-contrast);
       height: 310px;
       border-radius: 28px;
+      
        &:hover {
         h3 {
           a {
@@ -98,9 +103,8 @@ html.homepage-featured-topics {
         font-weight: 700;
         letter-spacing: .009em;
         margin: unset;
-        padding: 0 32px;
+        padding: 28px 32px;
         text-align: start;
-        padding-top: 15px;
         
         a {
           color: #1d1d1f;
